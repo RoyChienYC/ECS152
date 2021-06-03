@@ -1,4 +1,4 @@
-# ECS 152A Yulin Chien, Ethernet-simulation project
+# ECS 152A Yulin Chien, Class Project: Ethernet-simulation for Slotted Aloha protocol
 import simpy
 import math
 import numpy as np
@@ -145,7 +145,7 @@ class StatObject(object):
         self.dataset.append(x)
 
 
-# Note To Grader: If you want to all values in the graph change ARRIVAL_RATES and RETRAMSMISSION_POLICIES in class G to the values mentioned above them "<--"
+# If you want to all values in the graph change ARRIVAL_RATES and RETRAMSMISSION_POLICIES in class G to the values mentioned above them "<--"
 # Comment out lines 152 to 160 , and ,  208 to 209
 # Uncomment Code to plot starting from line 211.  And uncomment lines 194 to 195 for clearer printing data. Thank you! 
 
